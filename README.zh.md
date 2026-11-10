@@ -2961,6 +2961,7 @@ dsh plugin --profile web add dshmarket
 - [cyh3436332528/dsh-plugin-session-purge#plugin](https://github.com/cyh3436332528/dsh-plugin-session-purge/tree/main/plugin) — 永久删除 DSH 会话（而非仅归档），级联清理它的日志目录、投影缓存、工作区记账与子会话（子代理）。提供设置页面板：按工作区分组，显示体积、时间与「打开中 / 已归档 / 子会话 N / 无工作区」标记，支持筛选与批量删除，每条删除都在行下方内联二次确认。
 - [czm15053/dsh-peer-link](https://github.com/czm15053/dsh-peer-link) — 让 dsh 和 Claude Code 会话直接互发消息，附带可点击的会话列表卡片（搜索/刷新/弹窗发送）。
 - [d0ublecl1ck/dsh-session-radar](https://github.com/d0ublecl1ck/dsh-session-radar) — DSH Web 侧边栏的未读、待办与状态读数中枢：铃铛按顺序定位未读会话，快捷键依次走到正在等你输入的会话，⌘⇧, / ⌘⇧. 在访问过的对话之间前后切换；另有总览把未读与待决策会话分两区铺开；底部一行六项会话状态读数，每个图标都能点，点了跳到下一个同类会话；账本落在 host 半边，重启也不丢——未读会话重启后仍然显示行内绿色小标，启动时还会把上次被切断的会话列成清单，一键重发续跑消息。
+- [DandanLLab/dsh-plugin-team-group](https://github.com/DandanLLab/dsh-plugin-team-group) — dsh 团队群聊插件——角色卡（每成员独立头像/预设/人格/模型）+ 导演发言规划器（JSON 轮次规划）+ 逐角色执行引擎；支持把任意渠道会话（QQ 私聊/群、飞书等）作为成员拉进房间，拉人需管理员审批，管理员可跨房间、跨频道召集与点名。
 - [DDDMUC/dsh-delete-turn](https://github.com/DDDMUC/dsh-delete-turn) — DSH 消息删除插件：按条删除用户消息、按步骤删除思考与工具调用、按整条回复删除助手回答，经官方 surface-replace 契约从模型上下文移除并从可见转录隐藏，原始 append-only 日志不改写。
 - [deepsleepAquarium/dsh-whale-post#bus](https://github.com/deepsleepAquarium/dsh-whale-post/tree/main/packages/bus) — DeepSeek Harness 会话之间的文件信箱：每封信都用 HMAC 与正文摘要封好，收件人通过名单接口解析，默认离线投递——投不出去的信留在信箱里等人来收，不会丢。
 - [DelayNooMore/dsh-plugin-session-trash](https://github.com/DelayNooMore/dsh-plugin-session-trash) — 会话回收站：移入回收站、恢复或永久删除会话。
