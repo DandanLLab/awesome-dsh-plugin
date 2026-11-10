@@ -1,0 +1,7 @@
+url: https://github.com/DandanLLab/dsh-plugin-team-group
+name: DandanLLab/dsh-plugin-team-group
+category: session
+description:
+  en: Team group chat for dsh — character cards (avatar, preset, persona, model per member), a director speech planner that returns JSON rounds, and a per-member execution engine driving persistent agent sessions.
+  zh: dsh 团队群聊插件——角色卡（每成员独立头像/预设/人格/模型）+ 导演发言规划器（JSON 轮次规划）+ 逐角色执行引擎；支持把任意渠道会话（QQ 私聊/群、飞书等）作为成员拉进房间，拉人需管理员审批，管理员可跨房间、跨频道召集与点名。
+icon: https://raw.githubusercontent.com/DandanLLab/dsh-plugin-team-group/main/ui/avatars/breaker.png
